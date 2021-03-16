@@ -8,6 +8,7 @@
 body{
     background-color: lightgrey;
 }
+
 /* /Common prop */
 
 
@@ -19,6 +20,9 @@ header{
     
 }
 
+#header_logo{
+    margin-top: 0;
+}
 
 .logo{ 
     height:100px;
@@ -35,20 +39,28 @@ header{
 
 
 /* Main prop */
-
-
 main{
     background-color: white;
     width: 80%;
     margin:auto;
+    padding-bottom: 200px;
 }
-
 section>div{
     margin-left: 50px;
 }
 
+#section-button{
+    height: 40px;
+}
+div{
+    margin-top: 30px;
+}
+#button-nomargin{
+    /* margin-top: 0; mi attacca il blocco lista all'header */
 
-
+     padding-top: 6px;/*mi abbassa i bottoni a metà*/
+}
+/* /Main prop */
 
 /*  Button top prop */
 .button{
@@ -56,12 +68,10 @@ section>div{
     border-radius: 5px;
     padding: 5px 10px ;
 }
-
 .button.blue{
     background-color: cornflowerblue;
     color: whitesmoke;
 }
-
 .button.white{
     background-color: white ;
     color: lightgrey;
@@ -84,7 +94,7 @@ section>div{
     background-color: rebeccapurple;
 }
 .button-main.green{
-    background-color: lightgreen;
+    background-color: rgb(49, 223, 156);
 }
 .button-main.magenta{
     background-color: magenta;
@@ -93,7 +103,7 @@ section>div{
     background-color:orange;
 }
 .button-main.lime{
-    background-color: lime;
+    background-color: rgba(129, 207, 39, 0.877);
 }
 /* /Button main prop */
 
@@ -105,6 +115,7 @@ section>div{
 .title{
     margin-bottom: 20px;
 }
+
 span{
     font-weight:400;
     font-size: 20px ;
@@ -119,16 +130,19 @@ h2.title::before{
 
 span.cross::before{
     content: '\2716';
-    font-size: 15px;
+    font-size: 12.5px;
     color: red;
     border: 1px solid red;
     border-radius: 50%;
+    padding: 4px;
 }
 
-span.::before{
+span.check::before{
     content: '\2713';
-    font-size: 5px;
+    font-size: 12.5px;
     color:green;
     border: 1px solid green;
     border-radius: 50%;
+    padding: 4px;
 }
+/*   Utlity class */

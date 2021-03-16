@@ -23,24 +23,91 @@
 
     <!-- Site main -->
     <main>
+
         <!-- Button link -->
-        <section>
-            <div>
+        <section id="section-button">
+            <div id="button-nomargin">
                 <input class="button blue" type="submit" value="Add Task">
                 <input class="button white" type="submit" value="Add Section">
             </div>
         </section>
         <hr>
         <!-- /Button link -->
+
         <!-- List to do -->
         <section>
 
-            <div class="new_task">
+            <!-- prima lista   -->
+            <div role="new_task section">
 
-                <h2>New Task</h2>
+                <h2 class="title task">New Task</h2>
+                <div>
+                    <span class="check"> Quarterly Newsletter</span>
+                    <input class="button-main blue" type="submit" value="Editorial">
+                </div>
+            </div>
+            <!-- /prima lista -->
+
+            <!-- seconda lista -->
+
+            <div role="today section">
+
+                <h2 class="title">Today</h2>
+
+                <div>
+                    <span class="check"> Recruiting blog post</span>
+                    <input class="button-main blue" type="submit" value="Editorial">
+                </div>
+
+                <div>
+                    <span class="check"> Mobile app launch</span>
+                    <input class="button-main purple" type="submit" value="Q1 Goals">
+                </div>
+
+                <div>
+                    <span class="cross"> Interviw John H.</span>
+                    <input class="button-main green" type="submit" value="Recruiting">
+                </div>
+
+                <div>
+                    <span class="check"> Summit update to mobile storefronts</span>
+                    <input class="button-main orange" type="submit" value="Mobile">
+                </div>
 
 
             </div>
+            <!-- /seconda lista -->
+
+            <!-- terza lista -->
+
+            <div role="Upcoming section">
+
+                <h2 class="title">Upcoming</h2>
+
+                <div>
+                    <span class="cross"> Schedule meeting with Alex</span>
+                </div>
+
+                <div>
+                    <span class="check"> Homepage refresh</span>
+                    <input class="button-main magenta" type="submit" value="Website">
+                </div>
+
+                <div>
+                    <span class="check"> Onboard new Sales team members</span>
+                    <input class="button-main lime" type="submit" value="Sales">
+                </div>
+
+                <div>
+                    <span class="check"> Mobile app launch</span>
+                    <input class="button-main blue" type="submit" value="Editorial">
+                </div>
+
+
+            </div>
+            <!-- /terza lista -->
+
+
 
         </section>
     </main>
