@@ -2,9 +2,35 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0; 
     font-family: 'Roboto', sans-serif;
 }
 
 /* /Common prop */
 
+header{
+    height: 100px;
+    background-color: white;
+    
+}
+
+
+.logo{ 
+    height:100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.nome_logo{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+body{
+    background-color: lightgrey;
+}
+main{
+    background-color: white;
+    width: 80%;
+    margin:auto;
+}
