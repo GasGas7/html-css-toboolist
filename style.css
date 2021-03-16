@@ -5,9 +5,13 @@
     padding: 0; 
     font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color: lightgrey;
+}
 
 /* /Common prop */
 
+/* Header prop */
 header{
     height: 100px;
     background-color: white;
@@ -25,12 +29,37 @@ header{
     font-weight: 700;
     font-size: 40px;
 }
+/* Header prop */
 
-body{
-    background-color: lightgrey;
-}
+/* Main prop */
 main{
     background-color: white;
     width: 80%;
     margin:auto;
 }
+
+section>div{
+    margin-left: 50px;
+}
+
+/*  Button prop */
+.button{
+    
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 5px 10px ;
+}
+
+.button.blue{
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+
+.button.white{
+    background-color: white ;
+    color: lightgrey;
+
+    
+}
+/* /Button prop */
