@@ -8,8 +8,9 @@
 body{
     background-color: lightgrey;
 }
-
 /* /Common prop */
+
+
 
 /* Header prop */
 header{
@@ -31,7 +32,11 @@ header{
 }
 /* Header prop */
 
+
+
 /* Main prop */
+
+
 main{
     background-color: white;
     width: 80%;
@@ -42,12 +47,13 @@ section>div{
     margin-left: 50px;
 }
 
-/*  Button prop */
+
+
+
+/*  Button top prop */
 .button{
-    
-    border-color: lightgrey;
-    border-width: 1px;
-    border-radius: 10px;
+    border:1px solid lightgrey;
+    border-radius: 5px;
     padding: 5px 10px ;
 }
 
@@ -63,3 +69,66 @@ section>div{
     
 }
 /* /Button prop */
+
+/* Button main prop */
+.button-main{
+    border:1px solid lightgrey;
+    border-radius: 15px;
+    padding: 5px 10px ;
+    color: white;
+}
+.button-main.blue{
+    background-color: cornflowerblue;
+}
+.button-main.purple{
+    background-color: rebeccapurple;
+}
+.button-main.green{
+    background-color: lightgreen;
+}
+.button-main.magenta{
+    background-color: magenta;
+}
+.button-main.orange{
+    background-color:orange;
+}
+.button-main.lime{
+    background-color: lime;
+}
+/* /Button main prop */
+
+/* List prop */
+.new_task{
+    margin-top: 30px;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+span{
+    font-weight:400;
+    font-size: 20px ;
+}
+/* /List prop */
+
+/*   Utlity class */
+
+h2.title::before{
+    content: '\25BC';
+}
+
+span.cross::before{
+    content: '\2716';
+    font-size: 15px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+span.::before{
+    content: '\2713';
+    font-size: 5px;
+    color:green;
+    border: 1px solid green;
+    border-radius: 50%;
+}
