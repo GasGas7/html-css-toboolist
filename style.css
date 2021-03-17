@@ -8,7 +8,6 @@
 body{
     background-color: lightgrey;
 }
-
 /* /Common prop */
 
 
@@ -19,17 +18,14 @@ header{
     background-color: white;
     
 }
-
 #header_logo{
     margin-top: 0;
 }
-
 .logo{ 
     height:100px;
     line-height: 100px;
     vertical-align: middle;
 }
-
 .nome_logo{
     font-weight: 700;
     font-size: 40px;
@@ -43,17 +39,17 @@ main{
     background-color: white;
     width: 80%;
     margin:auto;
+    margin-top: 40px;
     padding-bottom: 200px;
 }
 section>div{
     margin-left: 50px;
 }
-
+div{
+    margin-top: 20px;
+}
 #section-button{
     height: 40px;
-}
-div{
-    margin-top: 30px;
 }
 #button-nomargin{
     /* margin-top: 0; mi attacca il blocco lista all'header */
@@ -111,11 +107,9 @@ div{
 .new_task{
     margin-top: 30px;
 }
-
 .title{
     margin-bottom: 20px;
 }
-
 span{
     font-weight:400;
     font-size: 20px ;
@@ -127,7 +121,6 @@ span{
 h2.title::before{
     content: '\25BC';
 }
-
 span.cross::before{
     content: '\2716';
     font-size: 12.5px;
@@ -136,7 +129,6 @@ span.cross::before{
     border-radius: 50%;
     padding: 4px;
 }
-
 span.check::before{
     content: '\2713';
     font-size: 12.5px;
